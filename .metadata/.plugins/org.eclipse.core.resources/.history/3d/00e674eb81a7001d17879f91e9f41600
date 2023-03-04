@@ -1,0 +1,55 @@
+package Student;
+
+import java.util.ArrayList;
+
+public class DemoPolymor {
+	public static void main(String[] args) {
+		X x = new X();
+		System.out.println(x.a);
+		x.f1();
+
+		Y y = new Y();
+		System.out.println(y.a);
+		y.f1();
+
+		Z z = new Z();
+		z.f2();
+		z.f1();
+		
+//		X obj = y;
+//		obj.f1();
+		
+		ArrayList<X> data = new ArrayList<X>();
+		data.add(x);
+		data.add(y);
+		data.add(z);
+		
+		for (X obj: data) {
+			obj.f1();
+		}
+	}
+}
+
+class X {
+	protected int a = 5;
+
+	public void f1() {
+		System.out.println("X - f1()");
+	}
+}
+
+class Y extends X {
+	private int d;
+	
+	public void f1() {
+		System.out.println("Y - f1()");
+	}
+}
+
+class Z extends X {
+	private int e;
+
+	public void f1() {
+		System.out.println("Z - f1()");
+	}
+}

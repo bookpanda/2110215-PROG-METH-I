@@ -1,0 +1,7 @@
+
+public class AreaCalculator {
+	public static void mai(String[] args) {
+		double r = 10;
+		double area = Math.PI * r * r;
+	}
+}

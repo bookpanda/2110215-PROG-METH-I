@@ -1,0 +1,7 @@
+if (enemy.getType().equals("Tiger")) {
+			enemy.hp -= this.hp / 2;
+		} else if (enemy.getType().equals("ToughMan")) {
+			enemy.hp -= this.hp * 1.5;
+		} else {
+			enemy.hp -= this.hp;
+		}

@@ -1,0 +1,13 @@
+package logic.card;
+
+import logic.game.CardSymbol;
+import logic.game.CardColor;
+import logic.game.GameLogic;
+
+//You CAN modify the first line
+public class NumberCard extends BaseCard {
+	// TODO Implement here
+	NumberCard(NumberCard(CardColor color,
+			CardSymbol symbol))
+
+}

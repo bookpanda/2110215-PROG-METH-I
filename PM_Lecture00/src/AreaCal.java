@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class AreaCal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Scanner sc = new Scanner(System.in);
+//		double r = sc.nextDouble();
+////		double r = (double) sc;
+//		double area = Math.PI * Math.pow(r, 2);
+//
+//		System.out.println("Please enter your name: ");
+//		String name = sc.next();
+//
+//		System.out.println(name + "\'s circle area = " + area);
+//
+//		sc.close();
+
+		String score = "100";
+		double s = Double.parseDouble(score) * 20;
+		System.out.println(s);
+
+		int a = 20;
+		String b = a + "01";
+		System.out.println(b);
+
+		System.out.println(a == 20);
+		
+		double d = 0.1;
+		d += 0.1;
+		d += 0.1;
+		d += 0.1;
+		d += 0.1;
+		System.out.println();
+	}
+
+}

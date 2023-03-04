@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="SimpleDice"/>
+    <fullyQualifiedTypeName name="exception.NameBlankException"/>
+    <fullyQualifiedTypeName name="logic.unit.BaseCompetitor"/>
+    <fullyQualifiedTypeName name="logic.unit.Sorcerer"/>
+    <fullyQualifiedTypeName name="logic.unit.Tiger"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="logic.room.Room"/>
+    <fullyQualifiedTypeName name="logic.room.Booking"/>
+    <fullyQualifiedTypeName name="logic.system.RoomSystem"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
+    <fullyQualifiedTypeName name="Student.UndergraduateStudent"/>
+    <fullyQualifiedTypeName name="Student.GraduateStudent"/>
+    <fullyQualifiedTypeName name="Staff"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="logic.game.GameLogic"/>
+    <fullyQualifiedTypeName name="javax.xml.catalog.CatalogManager"/>
+    <fullyQualifiedTypeName name="logic.card.NumberCard"/>
+    <fullyQualifiedTypeName name="logic.game.CardColor"/>
+    <fullyQualifiedTypeName name="logic.game.CardSymbol"/>
+</qualifiedTypeNameHistroy>

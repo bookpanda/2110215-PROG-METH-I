@@ -1,0 +1,21 @@
+package logic.card;
+
+import logic.game.CardColor;
+import logic.game.CardSymbol;
+import logic.game.GameLogic;
+import logic.game.PlayDirection;
+
+//You CAN modify the first line
+public class ReverseCard extends EffectCard {
+	private static CardSymbol REVERSE;
+
+	// TODO Implement here
+	public ReverseCard(CardColor color) {
+		super(color, REVERSE);
+	}
+	
+	public String performEffect() {
+		
+	}
+
+}

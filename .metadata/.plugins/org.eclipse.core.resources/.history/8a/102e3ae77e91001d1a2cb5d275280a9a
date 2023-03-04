@@ -1,0 +1,11 @@
+
+public class MyVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 10;
+		long b = 20;
+		a = (int) b;
+	}
+
+}

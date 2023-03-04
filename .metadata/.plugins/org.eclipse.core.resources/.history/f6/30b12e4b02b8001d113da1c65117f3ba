@@ -1,0 +1,19 @@
+package logic.card;
+
+import logic.game.CardColor;
+import logic.game.CardSymbol;
+import logic.game.GameLogic;
+
+import java.util.ArrayList;
+
+//You CAN modify the first line
+public class ChangeColorCard {
+    private static Object CHANGE_COLOR;
+
+	// TODO Implement here
+	public ChangeColorCard() {
+		super(null, CHANGE_COLOR);
+	}
+
+
+}

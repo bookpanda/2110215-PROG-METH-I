@@ -1,0 +1,36 @@
+package logic.card;
+
+import logic.game.CardColor;
+import logic.game.CardSymbol;
+import logic.game.GameLogic;
+
+//You CAN modify the first line
+public abstract class EffectCard {
+	// TODO Implement here
+	private CardColor color;
+	private CardSymbol symbol;
+
+	public abstract String performEffect();
+
+	public String play() {
+		GameLogic.getInstance().setTopCard(this);
+		
+	}
+
+	public CardColor getColor() {
+		return color;
+	}
+
+	public void setColor(CardColor color) {
+		this.color = color;
+	}
+
+	public CardSymbol getSymbol() {
+		return symbol;
+	}
+
+	public void setSymbol(CardSymbol symbol) {
+		this.symbol = symbol;
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class MyVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int score = 100;
+		int newScore = score + 20;
+		
+		System.out.println(score);
+		System.out.println(newScore);
+	}
+
+}

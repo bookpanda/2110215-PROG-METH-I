@@ -1,0 +1,71 @@
+package logic.card;
+
+import logic.game.CardColor;
+import logic.game.CardSymbol;
+import logic.game.GameLogic;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+//You CAN modify the first line
+public class DrawTwoCard extends EffectCard {
+	private static CardSymbol DRAW_TWO;
+	private static CardSymbol DRAW_FOUR;
+
+	// TODO Implement here
+	public DrawTwoCard(CardColor color) {
+		super(color, DRAW_TWO);
+	}
+
+	public String performEffect() {
+		int drawAmount = GameLogic.getInstance().getDrawAmount();
+		GameLogic.getInstance().setDrawAmount(drawAmount + 2);
+		GameLogic.getInstance().goToNextPlayer();
+		while (GameLogic.getInstance().getCurrentPlayerHand().size() == 0) {
+			GameLogic.getInstance().goToNextPlayer();
+		}
+		ArrayList<BaseCard> deck = GameLogic.getInstance().getCurrentPlayerHand();
+		int id;
+		int drawType;
+		boolean flag = false;
+		for (int i = 0; i < deck.size(); i++) {
+			CardSymbol symbol = deck.get(i).getSymbol();
+			if (symbol.equals(DRAW_TWO)) {
+				id = i;
+				drawType = 2;
+				flag = true;
+				break;
+			}else if (symbol.equals(DRAW_FOUR)) {
+				id = i;
+				drawType = 4;
+				flag = true;
+				break;
+			}
+		}
+		if(flag) {
+//			D deck.get(id).
+		}
+		else {
+			ArrayList<BaseCard> drewCards =  GameLogic.getInstance().draw(GameLogic.getInstance().getDrawAmount());
+			GameLogic.getInstance().getCurrentPlayerHand().addAll(drewCards);
+			return "Player " + GameLogic.getInstance().getCurrentPlayer() + " drew " +
+			GameLogic.getInstance().getDrawAmount() + " cards. " + GameLogic.getInstance().getCurrentPlayerHand().size() + 
+			" cards remaining.";
+		}
+	}
+
+	public boolean canPlay() {
+		CardColor topColor = GameLogic.getInstance().getTopCard().getColor();
+		CardSymbol topSymbol = GameLogic.getInstance().getTopCard().getSymbol();
+		if (topColor.equals(this.getColor()) || topSymbol.equals(this.getSymbol())) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public String toString() {
+		return this.getSymbol().toString() + " " + this.getColor().toString();
+	}
+
+}
