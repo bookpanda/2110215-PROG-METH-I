@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ExerciseSolution"/>
+	<classpathentry kind="src" path="Thread_Part 1"/>
+	<classpathentry kind="src" path="Exercise"/>
+	<classpathentry kind="src" path="Thread_Part 2"/>
+	<classpathentry kind="src" path="UIExamples"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
