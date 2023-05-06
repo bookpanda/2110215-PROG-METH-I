@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="logic.Player"/>
-    <fullyQualifiedTypeName name="entity.counter.DishWasher"/>
-    <fullyQualifiedTypeName name="entity.container.Dish"/>
-    <fullyQualifiedTypeName name="entity.base.Choppable"/>
-    <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
-    <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
-    <fullyQualifiedTypeName name="javafx.scene.layout.StackPane"/>
     <fullyQualifiedTypeName name="javafx.scene.shape.Circle"/>
     <fullyQualifiedTypeName name="javafx.scene.Cursor"/>
-    <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
     <fullyQualifiedTypeName name="java.awt.Button"/>
     <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
     <fullyQualifiedTypeName name="component.PageButton"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="javafx.application.Platform"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="application.BeatMap"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
+    <fullyQualifiedTypeName name="application.GameCoreWrapper"/>
+    <fullyQualifiedTypeName name="application.ScoreProcessorWrapper"/>
+    <fullyQualifiedTypeName name="application.GameCore"/>
+    <fullyQualifiedTypeName name="application.ScoreProcessor"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
 </qualifiedTypeNameHistroy>

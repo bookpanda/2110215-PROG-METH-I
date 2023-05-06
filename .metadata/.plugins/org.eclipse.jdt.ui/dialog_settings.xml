@@ -56,6 +56,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\margi\Downloads\Lab6_2022_2_6532203021.jar"/>
 			<item value="C:\Users\margi\Downloads\Lab1_2022_2_6532203021.jar"/>
 		</list>
 	</section>
