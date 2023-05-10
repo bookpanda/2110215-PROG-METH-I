@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javafx.scene.shape.Circle"/>
-    <fullyQualifiedTypeName name="javafx.scene.Cursor"/>
-    <fullyQualifiedTypeName name="java.awt.Button"/>
-    <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
     <fullyQualifiedTypeName name="component.PageButton"/>
     <fullyQualifiedTypeName name="component.CreatePageButton"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.CornerRadii"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="application.ScoreProcessor"/>
     <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
     <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
+    <fullyQualifiedTypeName name="fighters.base.Attackable"/>
+    <fullyQualifiedTypeName name="fighters.base.Guardable"/>
+    <fullyQualifiedTypeName name="logic.BattleUtils"/>
+    <fullyQualifiedTypeName name="fighters.base.Unit"/>
 </qualifiedTypeNameHistroy>
